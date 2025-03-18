@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanj\\OneDrive\\Escritorio\\UNIVERSIDAD\\2025-1\\Herramientas de programacion 2\\Space invaders\\Space Invaders Basico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9DA8675-E76A-42CB-BD2D-D0A5CAEFB1C5}|Space Invaders Basico\\SpaceInvadersBasico.csproj|c:\\users\\juanj\\onedrive\\escritorio\\universidad\\2025-1\\herramientas de programacion 2\\space invaders\\space invaders basico\\space invaders basico\\frmspaceinvaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9DA8675-E76A-42CB-BD2D-D0A5CAEFB1C5}|Space Invaders Basico\\SpaceInvadersBasico.csproj|solutionrelative:space invaders basico\\frmspaceinvaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9DA8675-E76A-42CB-BD2D-D0A5CAEFB1C5}|Space Invaders Basico\\SpaceInvadersBasico.csproj|c:\\users\\juanj\\onedrive\\escritorio\\universidad\\2025-1\\herramientas de programacion 2\\space invaders\\space invaders basico\\space invaders basico\\frmspaceinvaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9DA8675-E76A-42CB-BD2D-D0A5CAEFB1C5}|Space Invaders Basico\\SpaceInvadersBasico.csproj|solutionrelative:space invaders basico\\frmspaceinvaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9DA8675-E76A-42CB-BD2D-D0A5CAEFB1C5}|Space Invaders Basico\\SpaceInvadersBasico.csproj|c:\\users\\juanj\\onedrive\\escritorio\\universidad\\2025-1\\herramientas de programacion 2\\space invaders\\space invaders basico\\space invaders basico\\gameobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9DA8675-E76A-42CB-BD2D-D0A5CAEFB1C5}|Space Invaders Basico\\SpaceInvadersBasico.csproj|solutionrelative:space invaders basico\\gameobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9DA8675-E76A-42CB-BD2D-D0A5CAEFB1C5}|Space Invaders Basico\\SpaceInvadersBasico.csproj|c:\\users\\juanj\\onedrive\\escritorio\\universidad\\2025-1\\herramientas de programacion 2\\space invaders\\space invaders basico\\space invaders basico\\frmspaceinvaders.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9DA8675-E76A-42CB-BD2D-D0A5CAEFB1C5}|Space Invaders Basico\\SpaceInvadersBasico.csproj|solutionrelative:space invaders basico\\frmspaceinvaders.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameObjects.cs",
+              "DocumentMoniker": "C:\\Users\\juanj\\OneDrive\\Escritorio\\UNIVERSIDAD\\2025-1\\Herramientas de programacion 2\\Space invaders\\Space Invaders Basico\\Space Invaders Basico\\GameObjects.cs",
+              "RelativeDocumentMoniker": "Space Invaders Basico\\GameObjects.cs",
+              "ToolTip": "C:\\Users\\juanj\\OneDrive\\Escritorio\\UNIVERSIDAD\\2025-1\\Herramientas de programacion 2\\Space invaders\\Space Invaders Basico\\Space Invaders Basico\\GameObjects.cs",
+              "RelativeToolTip": "Space Invaders Basico\\GameObjects.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wGkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T07:49:44.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmSpaceInvaders.cs",
+              "DocumentMoniker": "C:\\Users\\juanj\\OneDrive\\Escritorio\\UNIVERSIDAD\\2025-1\\Herramientas de programacion 2\\Space invaders\\Space Invaders Basico\\Space Invaders Basico\\frmSpaceInvaders.cs",
+              "RelativeDocumentMoniker": "Space Invaders Basico\\frmSpaceInvaders.cs",
+              "ToolTip": "C:\\Users\\juanj\\OneDrive\\Escritorio\\UNIVERSIDAD\\2025-1\\Herramientas de programacion 2\\Space invaders\\Space Invaders Basico\\Space Invaders Basico\\frmSpaceInvaders.cs*",
+              "RelativeToolTip": "Space Invaders Basico\\frmSpaceInvaders.cs*",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAiwAUBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T07:49:46.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmSpaceInvaders.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\juanj\\OneDrive\\Escritorio\\UNIVERSIDAD\\2025-1\\Herramientas de programacion 2\\Space invaders\\Space Invaders Basico\\Space Invaders Basico\\frmSpaceInvaders.Designer.cs",
+              "RelativeDocumentMoniker": "Space Invaders Basico\\frmSpaceInvaders.Designer.cs",
+              "ToolTip": "C:\\Users\\juanj\\OneDrive\\Escritorio\\UNIVERSIDAD\\2025-1\\Herramientas de programacion 2\\Space invaders\\Space Invaders Basico\\Space Invaders Basico\\frmSpaceInvaders.Designer.cs",
+              "RelativeToolTip": "Space Invaders Basico\\frmSpaceInvaders.Designer.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T07:57:42.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSpaceInvaders.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\juanj\\OneDrive\\Escritorio\\UNIVERSIDAD\\2025-1\\Herramientas de programacion 2\\Space invaders\\Space Invaders Basico\\Space Invaders Basico\\frmSpaceInvaders.cs",
+              "RelativeDocumentMoniker": "Space Invaders Basico\\frmSpaceInvaders.cs",
+              "ToolTip": "C:\\Users\\juanj\\OneDrive\\Escritorio\\UNIVERSIDAD\\2025-1\\Herramientas de programacion 2\\Space invaders\\Space Invaders Basico\\Space Invaders Basico\\frmSpaceInvaders.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Space Invaders Basico\\frmSpaceInvaders.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T07:17:56.162Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

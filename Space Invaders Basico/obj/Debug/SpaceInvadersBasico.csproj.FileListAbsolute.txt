@@ -1,0 +1,10 @@
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\SpaceInvadersBasico.csproj.AssemblyReference.cache
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\SpaceInvadersBasico.frmSpaceInvaders.resources
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\SpaceInvadersBasico.csproj.GenerateResource.cache
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\SpaceInvadersBasico.csproj.CoreCompileInputs.cache
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\SpaceInvadersBasico.Properties.Resources.resources
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\bin\Debug\Space Invaders Basico.exe.config
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\bin\Debug\Space Invaders Basico.exe
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\bin\Debug\Space Invaders Basico.pdb
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\Space Invaders Basico.exe
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\Space Invaders Basico.pdb

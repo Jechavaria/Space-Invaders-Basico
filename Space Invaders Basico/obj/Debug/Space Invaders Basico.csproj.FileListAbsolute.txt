@@ -1,0 +1,5 @@
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\Space Invaders Basico.csproj.AssemblyReference.cache
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\SpaceInvadersBasico.frmSpaceInvaders.resources
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\Space_Invaders_Basico.Properties.Resources.resources
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\Space Invaders Basico.csproj.GenerateResource.cache
+C:\Users\juanj\OneDrive\Escritorio\UNIVERSIDAD\2025-1\Herramientas de programacion 2\Space invaders\Space Invaders Basico\Space Invaders Basico\obj\Debug\Space Invaders Basico.csproj.CoreCompileInputs.cache
