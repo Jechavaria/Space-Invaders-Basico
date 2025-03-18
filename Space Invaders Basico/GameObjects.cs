@@ -63,6 +63,8 @@ namespace SpaceInvadersBasico
             return new Bala(Properties.Resources.Bala, balaPosX, balaPosY);
         }
     }
+
+
     public class BalaEnemiga : GameObject
     {
         public BalaEnemiga(Image imagen, int posX, int posY) : base(imagen, posX, posY)

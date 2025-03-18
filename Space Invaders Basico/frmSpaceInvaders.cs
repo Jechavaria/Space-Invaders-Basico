@@ -30,6 +30,8 @@ namespace SpaceInvadersBasico
             InitializeComponent();
             this.KeyPreview = true;
             InicializarJuego();
+            pnlJuego.MouseMove += PnlJuego_MouseMove;
+            pnlJuego.MouseClick += PnlJuego_MouseClick;
         }
 
 
@@ -147,6 +149,20 @@ namespace SpaceInvadersBasico
                 pnlJuego.Controls.Add(nuevaBala.Imagen);
             }
         }
+        private void PnlJuego_MouseMove(object sender, MouseEventArgs e)
+        {
+            int nuevaPosicionX = e.X - (tanque.Imagen.Width / 2);
+
+            if (nuevaPosicionX < 0)
+                nuevaPosicionX = 0;
+            else if (nuevaPosicionX + tanque.Imagen.Width > pnlJuego.Width)
+                nuevaPosicionX = pnlJuego.Width - tanque.Imagen.Width;
+
+            tanque.Imagen.Left = nuevaPosicionX;
+            tanque.PosX = nuevaPosicionX;
+        }
+
+
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -194,40 +210,52 @@ namespace SpaceInvadersBasico
                     continue;
                 }
 
-if (balasEnemigas[i].Imagen.Bounds.IntersectsWith(tanque.Imagen.Bounds))
-{
-    tanque.Vidas--;
+                if (balasEnemigas[i].Imagen.Bounds.IntersectsWith(tanque.Imagen.Bounds))
+                {
+                    tanque.Vidas--;
     
-    lblVidas.Text = "Vidas: " + tanque.Vidas;
+                    lblVidas.Text = "Vidas: " + tanque.Vidas;
     
-    if (vidasIcons.Count > 0)
-    {
-        PictureBox lastIcon = vidasIcons[vidasIcons.Count - 1];
-        this.Controls.Remove(lastIcon);
-        vidasIcons.RemoveAt(vidasIcons.Count - 1);
-    }
+                    if (vidasIcons.Count > 0)
+                    {
+                        PictureBox lastIcon = vidasIcons[vidasIcons.Count - 1];
+                        this.Controls.Remove(lastIcon);
+                        vidasIcons.RemoveAt(vidasIcons.Count - 1);
+                    }
     
-    pnlJuego.Controls.Remove(balasEnemigas[i].Imagen);
-    balasEnemigas.RemoveAt(i);
-    i--;
+                    pnlJuego.Controls.Remove(balasEnemigas[i].Imagen);
+                    balasEnemigas.RemoveAt(i);
+                    i--;
     
-    if (tanque.Vidas <= 0)
-    {
-        timer1.Stop();
-        DialogResult resultado = MessageBox.Show("Game Over. ¿Deseas reiniciar el juego?", "Game Over", MessageBoxButtons.YesNo);
-        if (resultado == DialogResult.Yes)
-        {
-            ReiniciarJuego();
-        }
-        else
-        {
-            this.Close();
-        }
-    }
-}
+                    if (tanque.Vidas <= 0)
+                    {
+                        timer1.Stop();
+                        DialogResult resultado = MessageBox.Show("Game Over. ¿Deseas reiniciar el juego?", "Game Over", MessageBoxButtons.YesNo);
+                        if (resultado == DialogResult.Yes)
+                        {
+                            ReiniciarJuego();
+                        }
+                        else
+                        {
+                            this.Close();
+                        }
+                    }
+                }
             }
                 VerificarColisiones();
-
+            if (enemigos.Count == 0)
+            {
+                timer1.Stop();
+                DialogResult resultado = MessageBox.Show("¡Ganaste! Puntaje: " + puntaje + "\n¿Deseas reiniciar el juego?", "Victoria", MessageBoxButtons.YesNo);
+                if (resultado == DialogResult.Yes)
+                {
+                    ReiniciarJuego();
+                }
+                else
+                {
+                    this.Close();
+                }
+            }
         }
 
         private void MoverEnemigos()
@@ -286,6 +314,8 @@ if (balasEnemigas[i].Imagen.Bounds.IntersectsWith(tanque.Imagen.Bounds))
             }
         }
 
+
+
         private void VerificarColisiones()
         {
             for (int i = 0; i < balas.Count; i++)
@@ -327,6 +357,16 @@ if (balasEnemigas[i].Imagen.Bounds.IntersectsWith(tanque.Imagen.Bounds))
             lblVidas.Text = "Vidas: " + tanque.Vidas;
             InicializarJuego();
 
+        }
+
+        private void PnlJuego_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Bala nuevaBala = tanque.Disparar();
+                balas.Add(nuevaBala);
+                pnlJuego.Controls.Add(nuevaBala.Imagen);
+            }
         }
 
     }
